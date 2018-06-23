@@ -1,0 +1,483 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 479
+  ClientWidth = 312
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.Y = 112.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 369.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 309.000000000000000000
+    Viewport.Height = 365.000000000000000000
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = xFFF8E8E8
+    Position.X = -5.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 318.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = xFF937E7E
+    Position.X = -4.000000000000000000
+    Position.Y = -8.000000000000000000
+    Size.Width = 317.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+  end
+  object Button1: TButton
+    Position.X = -8.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'font-Layout'
+    OnClick = Button1Click
+  end
+  object Label8: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 48.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = #51089#49457#51088':'
+    TabOrder = 16
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 26
+    Position.X = 56.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 116.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 25
+    Position.X = 72.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = #51228#47785':'
+    TabOrder = 15
+  end
+  object Button4: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 254.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #51200#51109
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button4Click
+  end
+  object Button6: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 166.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 83.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = #48520#47084#50724#44592
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  object Button7: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 27
+    Text = 'BlueTooth'#49444#51221
+    OnClick = Button7Click
+  end
+  object Panel1: TPanel
+    Position.X = 48.000000000000000000
+    Position.Y = 68.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 297.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 29
+    object Rectangle3: TRectangle
+      Fill.Color = xFFFF0909
+      Position.X = 184.000000000000000000
+      Size.Width = 34.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFFC0C0C
+      OnClick = Rectangle3Click
+    end
+    object Label1: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 192.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'X'
+      TabOrder = 1
+    end
+    object Label6: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = #44544#50472#52404':'
+      TabOrder = 21
+    end
+    object ComboBox3: TComboBox
+      Position.X = 69.000000000000000000
+      Position.Y = 48.000000000000000000
+      TabOrder = 7
+      object ListBoxItem1: TListBoxItem
+        TabOrder = 0
+        Text = #44417#49436#52404
+      end
+      object ListBoxItem2: TListBoxItem
+        TabOrder = 1
+        Text = #44404#47548#52404
+      end
+      object ListBoxItem3: TListBoxItem
+        TabOrder = 2
+        Text = #51221#51088#52404
+      end
+      object ListBoxItem4: TListBoxItem
+        TabOrder = 3
+        Text = #54620#45149#52404
+      end
+      object ListBoxItem5: TListBoxItem
+        TabOrder = 4
+        Text = #48512#52404
+      end
+      object ListBoxItem6: TListBoxItem
+        TabOrder = 5
+        Text = #54620#45149#50732#47548#52404
+      end
+      object ListBoxItem7: TListBoxItem
+        TabOrder = 6
+        Text = #50500#51648#46993#51060#52404
+      end
+      object ListBoxItem8: TListBoxItem
+        TabOrder = 7
+        Text = #48148#47492#52404
+      end
+    end
+    object Label5: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Pt:'
+      TabOrder = 25
+    end
+    object ComboBox2: TComboBox
+      Position.X = 69.000000000000000000
+      Position.Y = 104.000000000000000000
+      TabOrder = 8
+      object ListBoxItem15: TListBoxItem
+        TabOrder = 0
+        Text = '12'
+      end
+      object ListBoxItem16: TListBoxItem
+        TabOrder = 1
+        Text = '13'
+      end
+      object ListBoxItem17: TListBoxItem
+        TabOrder = 2
+        Text = '14'
+      end
+      object ListBoxItem18: TListBoxItem
+        TabOrder = 3
+        Text = '15'
+      end
+      object ListBoxItem19: TListBoxItem
+        TabOrder = 4
+        Text = '16'
+      end
+      object ListBoxItem20: TListBoxItem
+        TabOrder = 5
+        Text = '17'
+      end
+      object ListBoxItem21: TListBoxItem
+        TabOrder = 6
+        Text = '18'
+      end
+      object ListBoxItem22: TListBoxItem
+        TabOrder = 7
+        Text = '19'
+      end
+      object ListBoxItem23: TListBoxItem
+        TabOrder = 8
+        Text = '20'
+      end
+      object ListBoxItem24: TListBoxItem
+        TabOrder = 9
+        Text = '21'
+      end
+      object ListBoxItem25: TListBoxItem
+        TabOrder = 10
+        Text = '22'
+      end
+      object ListBoxItem26: TListBoxItem
+        TabOrder = 11
+        Text = '23'
+      end
+      object ListBoxItem27: TListBoxItem
+        TabOrder = 12
+        Text = '24'
+      end
+      object ListBoxItem28: TListBoxItem
+        TabOrder = 13
+        Text = '25'
+      end
+    end
+    object Label7: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = #44544#51088#49353':'
+      TabOrder = 22
+    end
+    object ComboBox1: TComboBox
+      Position.X = 69.000000000000000000
+      Position.Y = 160.000000000000000000
+      TabOrder = 9
+      object ListBoxItem12: TListBoxItem
+        TabOrder = 0
+        Text = 'Red'
+      end
+      object ListBoxItem13: TListBoxItem
+        TabOrder = 1
+        Text = 'Blue'
+      end
+      object ListBoxItem14: TListBoxItem
+        TabOrder = 2
+        Text = 'Green'
+      end
+      object ListBoxItem29: TListBoxItem
+        TabOrder = 3
+        Text = 'Puple'
+      end
+      object ListBoxItem30: TListBoxItem
+        TabOrder = 4
+        Text = 'Orange'
+        object ListBox1: TListBox
+          Position.X = -181.000000000000000000
+          Position.Y = -181.000000000000000000
+          TabOrder = 0
+          DisableFocusEffect = True
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          Viewport.Width = 196.000000000000000000
+          Viewport.Height = 196.000000000000000000
+        end
+        object Button3: TButton
+          Position.X = -61.000000000000000000
+          Position.Y = -3.000000000000000000
+          TabOrder = 1
+          Text = 'find'
+        end
+        object Button5: TButton
+          Position.X = -61.000000000000000000
+          Position.Y = -3.000000000000000000
+          TabOrder = 2
+          Text = 'connect'
+        end
+        object Memo2: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          Position.X = -142.000000000000000000
+          Position.Y = -118.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 137.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Viewport.Width = 157.000000000000000000
+          Viewport.Height = 133.000000000000000000
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 11
+          Position.X = -81.000000000000000000
+          Position.Y = -3.000000000000000000
+        end
+      end
+    end
+    object Button2: TButton
+      Position.X = 48.000000000000000000
+      Position.Y = 232.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 26
+      Text = #54869#51064
+    end
+  end
+  object Panel2: TPanel
+    Position.X = 56.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 297.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 28
+    object Rectangle4: TRectangle
+      Fill.Color = xFFFF0909
+      Position.X = 184.000000000000000000
+      Size.Width = 34.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFFC0C0C
+      OnClick = Rectangle3Click
+    end
+    object Label3: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 192.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'X'
+      TabOrder = 1
+    end
+    object Button10: TButton
+      Position.X = 120.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 22
+      Text = 'connect'
+    end
+    object Button8: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 21
+      Text = 'Find'
+    end
+    object ListBox2: TListBox
+      Position.X = -16.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 233.000000000000000000
+      Size.Height = 241.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 30
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 229.000000000000000000
+      Viewport.Height = 237.000000000000000000
+    end
+  end
+  object Panel3: TPanel
+    Position.X = 40.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 337.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 31
+    object ListBox3: TListBox
+      Position.X = 16.000000000000000000
+      Position.Y = 48.000000000000000000
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 196.000000000000000000
+      Viewport.Height = 196.000000000000000000
+    end
+    object Button9: TButton
+      Position.X = 17.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'find'
+      OnClick = Button9Click
+    end
+    object connect: TButton
+      Position.X = 129.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'connect'
+      OnClick = connectClick
+    end
+    object Rectangle5: TRectangle
+      Fill.Color = xFFF30000
+      Position.X = 200.000000000000000000
+      Size.Width = 33.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFF91100
+      OnClick = Rectangle5Click
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 208.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      Text = 'X'
+      TabOrder = 4
+    end
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 4
+    Top = 104
+  end
+  object Bluetooth1: TBluetooth
+    Enabled = True
+    Top = 136
+  end
+end
